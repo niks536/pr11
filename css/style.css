@@ -21,6 +21,10 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
+.modules-page {
+  padding-top: 50px;
+}
+
 /* index.html */
 
 .main-content {
@@ -93,7 +97,7 @@ body {
 .subheading {
   margin-top: 0;
   margin-bottom: 10px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 30px;
   line-height: 34px;
   color: #333;
@@ -168,6 +172,7 @@ body {
 
 .figure {
   display: inline-block;
+  margin-left: 0;
   margin-bottom: 40px;
   width: 872px;
   font-size: 0;
@@ -181,4 +186,128 @@ body {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
+}
+
+#basic {
+  margin-top: 40px;
+}
+
+/* modules.html */
+
+.modules-brand {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 25px;
+  width: 137px;
+  height: 30px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 1;
+  color: #3f2aff;
+}
+
+.back-link_arrow {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.modules-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #3f2aff;
+}
+
+.modules-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.module-card {
+  position: relative;
+  width: 572px;
+  min-height: 505px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.module-card_photo {
+  width: 572px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.module-card_photo_photo-1 {
+  background-image: url(../img/module-2.png);
+}
+
+.module-card_photo_photo-2 {
+  background-image: url(../img/module-1.png);
+}
+
+.module-card_photo_photo-3 {
+  background-image: url(../img/module-3.png);
+}
+
+.module-card_photo_photo-4 {
+  background-image: url(../img/module-4.png);
+}
+
+.module-card_body {
+  padding: 25px 25px 70px;
+}
+
+.module-card_title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: #3f2aff;
+}
+
+.module-card_lessons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.module-card_lesson {
+  font-size: 20px;
+  line-height: 1.65;
+  color: #333;
+}
+
+.module-card_number {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #eaeaea;
+}
+
+.show-more {
+  display: block;
+  margin: 30px auto 0;
+  padding: 25px 76px;
+  border: 2px solid #3f2aff;
+  background-color: transparent;
+  font-size: 20px;
+  color: #3f2aff;
+  cursor: pointer;
 }
